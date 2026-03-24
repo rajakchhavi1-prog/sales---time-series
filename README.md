@@ -1,4 +1,4 @@
-# 📈 Retail Sales Demand Forecasting using Time Series Models
+# Retail Sales Demand Forecasting using Time Series Models
 
 This project focuses on forecasting retail store sales using time series techniques and evaluating different forecasting models to identify the most accurate approach.
 
@@ -8,7 +8,7 @@ The project compares statistical and machine learning approaches to understand d
 
 ---
 
-# 🎯 Project Objectives
+#  Project Objectives
 
 The primary goals of this project are:
 
@@ -20,7 +20,7 @@ The primary goals of this project are:
 
 ---
 
-# 📊 Dataset
+#  Dataset
 
 Dataset used: Rossmann Store Sales (Kaggle)
 
@@ -42,7 +42,7 @@ The dataset contains:
 
 ---
 
-# 🛠 Technologies Used
+# Technologies Used
 
 - Python
 - Pandas
@@ -55,7 +55,7 @@ The dataset contains:
 
 ---
 
-# 📌 Methodology
+# Methodology
 
 The project follows a structured time series forecasting pipeline:
 
@@ -93,7 +93,7 @@ Four forecasting models were implemented:
 
 ---
 
-# 📊 Model Performance
+#  Model Performance
 
 Model performance was evaluated using:
 
@@ -112,7 +112,7 @@ Prophet with Promotion Regressor achieved the lowest forecasting error.
 
 ---
 
-# 📈 Seasonality Analysis
+# Seasonality Analysis
 
 Weekly seasonality was analyzed by examining average sales by weekday.
 
@@ -123,7 +123,7 @@ Key observation:
 
 ---
 
-# 💰 Promotion Impact Analysis
+#  Promotion Impact Analysis
 
 Promotion effects were analyzed by comparing sales during promotional and non-promotional periods.
 
@@ -140,7 +140,7 @@ This demonstrates the strong influence of promotional campaigns on demand.
 
 ---
 
-# 📌 Key Insights
+#  Key Insights
 
 - Retail sales exhibit strong seasonal patterns
 - Promotional campaigns significantly increase demand
@@ -149,7 +149,7 @@ This demonstrates the strong influence of promotional campaigns on demand.
 
 ---
 
-# 💡 Business Recommendations
+#  Business Recommendations
 
 - Use Prophet + Promotion model for demand forecasting
 - Increase inventory planning during promotional periods
@@ -157,34 +157,10 @@ This demonstrates the strong influence of promotional campaigns on demand.
 
 ---
 
-# 📂 Project Structure
-retail-demand-forecasting
-│
-├── data
-│ ├── train.csv
-│ └── store.csv
-│
-├── notebook
-│ └── demand_forecasting.ipynb
-│
-├── plots
-│ ├── seasonality.png
-│ ├── forecast.png
-│
-└── README.md
 
 
 ---
 
-# 🚀 Future Improvements
-
-Potential extensions of this project:
-
-- SARIMA seasonal modeling
-- Hyperparameter optimization
-- Multi-store forecasting
-- Hierarchical forecasting across regions
-- Deep learning models (LSTM)
 
 ---
 
